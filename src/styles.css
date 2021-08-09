@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+.App {
+  font-family: Ubuntu;
+  text-align: center;
+}
+
+body {
+  background-color: #e5e7eb;
+}
+
+.container-center {
+  max-width: 600px;
+  margin: auto;
+  padding: 0rem 1rem;
+  text-align: center;
+}
+
+.flag {
+  font-size: 2rem;
+  padding: 1rem;
+  cursor: pointer;
+  display: inline-block; /*important, read about it*/
+}
+
+.input-class {
+  font-family: Ubuntu;
+  min-width: 80%;
+  padding: 1rem;
+}
+
+.meaning-class {
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 2rem auto;
+  padding: 0.4rem 1rem;
+  text-align: center;
+  width: fit-content;
+  border-radius: 0.3rem;
+}
