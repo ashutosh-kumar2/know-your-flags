@@ -286,10 +286,17 @@ export default function App() {
 
   return (
     <div className="App">
+      <nav>
+        <h1 className="header">Know Your Flags!</h1>
+        <a
+          className="link"
+          href="https://github.com/ashutosh-kumar2/know-your-flags"
+        >
+          Source Code
+        </a>
+      </nav>
+
       <div className="container-center">
-        <header>
-          <h1 className="header">Know Your Flags!</h1>
-        </header>
         <input
           onChange={flagInputHandler}
           placeholder={"Put a flag here to know the country it belongs to!"}
@@ -316,6 +323,30 @@ export default function App() {
           );
         })}
       </div>
+      <footer className="footer">
+        <div className="footer-header">Get in Touch</div>
+        <ul className="list-non-bullet">
+          <li className="list-inline-item">
+            <a
+              className="link"
+              href="https://www.linkedin.com/in/kumar-ashutosh2/"
+            >
+              LinkedIn
+            </a>
+          </li>
+          <li className="list-inline-item">
+            <a className="link" href="https://github.com/ashutosh-kumar2">
+              GitHub
+            </a>
+          </li>
+
+          <li className="list-inline-item">
+            <a className="link" href="https://twitter.com/ashutoshh_kk">
+              Twitter
+            </a>
+          </li>
+        </ul>
+      </footer>
     </div>
   );
 }
