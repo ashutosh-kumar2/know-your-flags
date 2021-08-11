@@ -290,7 +290,7 @@ export default function App() {
         <h1 className="header">Know Your Flags!</h1>
         <a
           className="link"
-          href="https://github.com/ashutosh-kumar2/know-your-flags"
+          href="https://github.com/ashutosh-kumar2/know-your-flags" target="_blank" rel="noopener noreferrer"
         >
           Source Code
         </a>
@@ -329,19 +329,19 @@ export default function App() {
           <li className="list-inline-item">
             <a
               className="link"
-              href="https://www.linkedin.com/in/kumar-ashutosh2/"
+              href="https://www.linkedin.com/in/kumar-ashutosh2/" target="_blank" rel="noopener noreferrer"
             >
               LinkedIn
             </a>
           </li>
           <li className="list-inline-item">
-            <a className="link" href="https://github.com/ashutosh-kumar2">
+            <a className="link" href="https://github.com/ashutosh-kumar2" target="_blank" rel="noopener noreferrer">
               GitHub
             </a>
           </li>
 
           <li className="list-inline-item">
-            <a className="link" href="https://twitter.com/ashutoshh_kk">
+            <a className="link" href="https://twitter.com/ashutoshh_kk" target="_blank" rel="noopener noreferrer">
               Twitter
             </a>
           </li>
